@@ -12,6 +12,16 @@ metadata1是登录亚马逊的时候，页面动态计算产生的一个字段�
 
 * CANVAS绘图/CRC校验/抽样
 
-## 通过复原metadata1，可以实现Http Post方式直接登录亚马逊，降低了自动化的难度，提高了执行效率；同时由于可以随意组合校验信息内的特征，一套方案即可模仿多种浏览器及软硬件环境。
+## 意义
+通过复原metadata1，可以实现Http Post方式直接登录亚马逊，降低了自动化的难度，提高了执行效率；同时由于可以随意组合校验信息内的特征，一套方案即可模仿多种浏览器及软硬件环境。
+
+## 接口
+##### 参数
+* email
+* browserType [Chrome/Firefox/Edge/Internet Explorer]
+
+##### 输出结果
+ECdITeCs:4qz+eH24hr1pf+gx/vaqUcKtAqROfvGzo+...
+
 
 ![](https://github.com/571914/metadata1/blob/master/wechat.jpg)  
